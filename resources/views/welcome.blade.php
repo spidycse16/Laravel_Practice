@@ -6,10 +6,12 @@
     <title>Document</title>
 </head>
 <body>
+    @include('Pages.header')
     <h2>This is home page</h2>
     <div>
-        <a href="/first">First page</a><br><br>
+        <a href="{{route('firstPage')}}">First page</a><br><br>
         <a href="/second">Second Page</a>
     </div>
+    @include('Pages.footer')
 </body>
 </html>

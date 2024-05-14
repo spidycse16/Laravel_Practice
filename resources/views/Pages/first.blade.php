@@ -7,6 +7,6 @@
 </head>
 <body>
     <h2>Hey! You are at the first page!</h2>
-    <a href="/">Homepage</a>
+    <a href="{{route('homepage')}}">Homepage</a>
 </body>
 </html>

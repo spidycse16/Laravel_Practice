@@ -7,7 +7,7 @@
 </head>
 <body>
     <h2>Hey! You are at the second page!</h2>
-    <a href="/">Homepage</a>
+    <a href="{{route('homepage')}}">Homepage</a>
     <a href="/newpage">Newpage</a>
 </body>
 </html>
